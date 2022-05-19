@@ -59,7 +59,7 @@ function App() {
 
   const getAllTodos = async () => {
     const result = await axios({
-      url: `${config.api_base_url}/item/`,
+      url: `${config.api_base_url}/getAllToDo/`,
       headers: {
         Authorization: idToken
       }
