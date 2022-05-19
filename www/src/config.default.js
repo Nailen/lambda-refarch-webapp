@@ -2,9 +2,9 @@
 // aws cloudformation describe-stacks --stack-name <YOUR STACK NAME> --query "Stacks[0].Outputs[]"
 
 const config = {
-  "aws_user_pools_web_client_id": "AWS_USER_POOLS_WEB_CLIENT_ID",     // CognitoClientID
+  "aws_user_pools_web_client_id": "4gcr1vvliggmp2h89l4uph9u2r",     // CognitoClientID
   "api_base_url": "API_BASE_URL",                                     // TodoFunctionApi
-  "cognito_hosted_domain": "COGNITO_HOSTED_DOMAIN",                   // CognitoDomainName
+  "cognito_hosted_domain": "kosc.auth.us-east-1.amazoncognito.com",                   // CognitoDomainName
   "redirect_url": "REDIRECT_URL"                                      // AmplifyURL
 };
 
